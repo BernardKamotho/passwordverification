@@ -7,3 +7,4 @@ if check_input_is_empty(user_input):
     print("Input is empty.")
 else:
     print("Input is not empty.")
+    

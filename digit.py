@@ -7,3 +7,4 @@ if check_input_is_digit(user_input):
     print("Input is a digit.")
 else:
     print("Input is not a digit.")
+    

@@ -13,3 +13,4 @@ if check_input_follows_pattern(user_input):
     print("Input follows the pattern.")
 else:
     print("Input does not follow the pattern.")
+    

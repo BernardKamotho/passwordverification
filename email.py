@@ -7,6 +7,7 @@ def check_input_is_email(input_str):
     # Check if the input string matches the email pattern
     return re.match(email_pattern, input_str) is not None
 
+
 # Example usage:
 user_input = input("Enter an email address: ")
 if check_input_is_email(user_input):
