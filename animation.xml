@@ -100,3 +100,19 @@ welcomeText.animate()
     .setStartDelay(500)
     .start()
 
+    // Animate the signature text from below to the bottom of the screen
+signature.animate()
+    .translationY(0f) // Move to its original position at the bottom
+    .alpha(1f)
+    .setDuration(2000)
+    .setStartDelay(1000) // Slight delay to sync with image animation
+    .start()
+
+// Navigate to MainActivity after the animations
+Handler().postDelayed({
+    val intent = Intent(applicationContext, MainActivity::class.java)
+    startActivity(intent)
+    finish()
+}, 5000) // Total duration (animation duration + delay)
+
+
