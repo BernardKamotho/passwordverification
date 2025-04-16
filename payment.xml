@@ -1,0 +1,44 @@
+<androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:layout_margin="10dp"
+        android:padding="8dp"
+        app:cardCornerRadius="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtProductName"
+                android:text="Product Name"
+                android:layout_marginTop="30dp"
+                android:textSize="28sp"
+                android:textStyle="italic"
+                android:layout_marginLeft="10dp"
+                android:textColor="#001665"/>
+
+            <!--Below is the imageView for our image    -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/imgProduct"
+                android:src="@drawable/smartphone"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="8px"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtProductCost"
+                android:layout_marginTop="30dp"
+                android:text="Ksh 100"
+                android:layout_marginLeft="10dp"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:textColor="#CD03B2"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
